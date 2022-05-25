@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display&family=Playfair+Display+SC:ital@0;1&family=Roboto:wght@100;300;700&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    box-sizing: border-box;
+    height: 56px;
+    width: 100.47px;
+}
+.logo-text{
+    font-weight: 400;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: .5em;
+    text-align: center;
+    font-size: 11.7px;
+}
+h1{
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    color: black;
+    font-size: 54px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.big{
+    width: 100%;
+    position: relative;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+.back img{
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+    position: relative;
+}
+
+.back .garchig{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    top: 234px;
+}
+.back .garchig .fashion{
+    border-bottom: 1px solid white;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-bottom: 23.150px;
+    height: 186.15px;
+}
+.back .garchig h1{
+    line-height: 81px;
+    letter-spacing: 4.05px;
+    font-size: 81px;
+    color: white;
+}
+.back .shop{
+    font-size: 54px;
+    font-weight: 300;
+    font-family: 'Sacramento', cursive;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 4;
+}
+.back .shop:hover{
+    color: #c7d93b;
+}
+#menu{
+    max-height: 350ms;
+    transition: 350ms;
+    transition-delay :0s ;
+    transition-duration: 0.35s;
+    transition-timing-function: ease;
+    display: flex;
+    width: 100%;
+    height: 112px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+#menu .gol{
+    padding: 0 32px;
+}
+#menu .child p{
+    letter-spacing: 1.6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 32px;
+    padding-bottom: 12px;
+    color: white;
+    font-size: 16px;
+}
+#menu .logo-text{
+    color: white;
+}
+#menu .child:hover p{
+    color: #c7d93b;
+}
+.bag{
+    right: 5%;
+    position: absolute;
+    top: 50%;
+}
+.bag i{
+    font-size: 20px;
+    color: white;
+}
+.bag i:hover{
+    color: #c7d93b;
+}
+.container{
+    margin-top: 46.3px;
+    width: 100%;
+    padding-bottom: 25px;
+    height: 100vh;
+}
+.container .bichig{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 46.3px;
+    margin-bottom: 23.15px;
+}
+.container .bichig .ner{
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-size: 11.7px;
+}
+.container .bichig .sig{
+    padding: 0 54px;
+    padding-bottom: 13.025px;
+    margin-bottom: 26.05px;
+    border-bottom: 1px solid black;
+}
+.container .bichig .ilvv{
+    color: rgb(29, 26, 25);
+    font-family: 'Alice', serif;
+    font-size: 21.0001px;
+    font-weight: 400;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.container .items{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container .items .child{
+    position: relative;
+    width: 33%;
+}
+.container .items .child .img{
+    height: 406.6px;
+}
+.container .items .child .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container .items .child .dugui{
+    top: 53.25px;
+    right: 19.2px;
+    border-radius: 50%;
+    background-color: rgba(29, 26, 25, 0.5);
+    position: absolute;
+    z-index: 99;
+    height: 300px;
+    width: 300px;
+    display: none;
+    text-align: center;
+    padding: 27px;
+    padding-top: 72px;
+}
+.container .items .child:hover .dugui{
+    display: block;
+}
+.container .items .child .dugui h1{
+    margin-bottom: 14.85PX;
+    padding-bottom: 18.26px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 36px;
+    font-style: normal;
+    color: white;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.container .items .child .dugui p{
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+}
+.container .items .child .dugui .the{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.container .items .child .dugui p:hover{
+    color: #c7d93b;
+}
+.container .items .child .dugui:hover h1{
+    margin-bottom: 9px;
+    transition: 0.2s;
+}
+.dund{
+    padding-top: 46.3px;
+}
+.back-2{
+    height: 464px;
+    width: 100%;
+}
+.back-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dood{
+    height: 100%;
+    margin-top: 0;
+    padding-top: 46.3px;
+    background-color: rgb(244, 239, 222);
+    padding-bottom: 92.6px;
+}
+.dood .items .about{
+    text-align: center;
+    height: 390.71px;
+}
+.dood .items .zuraas{
+    margin: auto;
+    width: 167.88px;
+    border-bottom: solid 1px rgb(68, 68, 68);
+}
+.dood .items .h2 h2{
+    margin-bottom: 14.85px;
+    padding-top: 25.125px;
+}
+h2{ 
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    color: rgb(68, 68, 68);
+}
+.dood .about p{
+    font-family: 'Alice', serif;
+    padding: 3.7125% 2.01406% 0%;
+
+}
+.dood .about .gifs{
+    height: 200px;
+}
+.footer-img{
+    width: 100%;
+    height: 348px;
+}
+.footer-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer{
+    position: relative;
+    height: 366.05px;
+    padding-top: 40px;
+    width: 100%;
+    background-color: #dba539;
+}
+.footer .logo{
+    width: 97.31px;
+    height: 54.23px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.footer .logo-text{
+    color:white;
+    margin-bottom: 44.275px;
+}
+.footer .social{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 44.275px;
+}
+.footer .social .icons{
+    padding: 5px 0;
+    background-color: white;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    text-align: center;   
+}
+.footer .social .icons i{
+    color: #dba539;
+}
+h5{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 21.0001px;
+    color: white;
+    font-weight: lighter;
+}
+.footer .text-foot{
+    text-align: center;
+    margin-bottom: 25.457px;
+}
+.footer .tugsuw{
+    position: absolute;
+    width: 100%;
+    background-color: #805f1e;
+    padding: 11.7px 0;
+    text-align: center;
+    bottom: 0;
+}
+.footer .tugsuw p{
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 11.7px;
+    font-weight: lighter;
+}
+#hide{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: none;
+}
